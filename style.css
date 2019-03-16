@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
+}
+
+ul {
+  list-style: none;
+}
+
+.green {
+  color: #93cb52;
+  font-size: 1.8rem;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+#nav-bar {
+  width: 100%;
+  background: #232323;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #eee;
+}
+
+.logo {
+  margin-left: 0.5rem;
+}
+
+#nav-bar ul {
+  display: flex;
+  padding: 1rem;
+}
+
+#nav-bar ul li a {
+  color: #eee;
+  padding: 0.2rem;
+  margin: 0 1rem;
+  transition: 0.3s;
+  font-size: 1.2rem;
+}
+
+#nav-bar ul li a:hover {
+  background: #93cb52;
+  border-radius: 5px;
+}
+
+#show-case {
+  width: 100%;
+  height: 94vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./showcase.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#show-case h1 {
+  font-size: 3.5rem;
+  color: #eee;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+#show-case p {
+  line-height: 2rem;
+  text-align: center;
+  color: #eee;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 7rem;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+  background: linear-gradient(#93cb52, #416b12);
+  text-transform: uppercase;
+  border-radius: 5px;
+  box-shadow: 2rem rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  animation: btn 5s infinite;
+}
+
+.btn-dark {
+  border: none;
+  color: #eee;
+  outline: none;
+  cursor: pointer;
+  width: 6rem;
+  padding: 0.3rem;
+  text-align: center;
+  font-size: 0.9rem;
+  background: #232323;
+  text-transform: uppercase;
+  border-radius: 5px;
+  box-shadow: 2rem rgba(0, 0, 0, 0.5);
+}
+
+@keyframes btn {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+#what-we-do {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  height: 50vh;
+}
+
+#what-we-do h2,
+#what-we-do span {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  overflow: hidden;
+}
+
+.card {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+}
+
+.card h3 {
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+.card p {
+  width: 80%;
+}
+
+.card i {
+  font-size: 2rem;
+  background: #93cb52;
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+#who-we-are {
+  width: 100%;
+  display: flex;
+}
+
+.pic-team {
+  width: 60%;
+  background: url(./people.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.who-we-are {
+  padding: 3rem;
+  background: #232323;
+}
+
+.who-we-are h3 {
+  padding: 0.8rem 0;
+  color: #eee;
+  font-size: 2rem;
+}
+
+.who-we-are p {
+  color: #eee;
+  line-height: 2rem;
+}
+
+.who-we-are h4 {
+  padding: 1rem 0;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.h3 {
+  font-size: 0.5rem;
+}
+
+.hr {
+  font-size: 1.1rem;
+  border-bottom: 1px solid #303030;
+}
+
+#our-clients {
+  width: 100%;
+  height: 40vh;
+  margin: auto;
+  text-align: center;
+}
+
+#our-clients h2,
+#our-clients h2 span {
+  font-size: 3rem;
+  padding: 1rem 0;
+}
+
+.clients img {
+  padding: 1rem;
+  margin: 0 1.5rem;
+  width: 12%;
+}
+
+#contact {
+  width: 100%;
+  display: flex;
+}
+
+.contact {
+  background: #93cb52;
+  color: #fff;
+  width: 40%;
+  padding: 1rem;
+}
+
+#contact label {
+  display: block;
+}
+
+.contact form input,
+.contact form textarea,
+.contact form button {
+  width: 100%;
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact h2 {
+  padding: 0.5rem 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.contact p {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.map {
+  width: 70%;
+}
+
+#footer {
+  background: #232323;
+  height: 7vh;
+  color: #eee;
+  text-align: center;
+  margin: auto 0;
+  padding: 1.1rem;
+}

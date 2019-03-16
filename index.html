@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body id="home">
+    <header>
+      <nav id="nav-bar">
+        <h1 class="logo">
+          <span class="green"> <i class="fas fa-book-open"> Edge</i></span
+          >Ledgr
+        </h1>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#what-we-do">What</a></li>
+          <li><a href="#who-we-are">Who</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="show-case">
+      <h1 class="header">The Sky Is The Limit</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
+        tenetur<br />
+        voluptates molestiae rerum ab. Fuga.
+      </p>
+      <button class="btn" type="button"><a href="">See More</a></button>
+    </section>
+
+    <section id="what-we-do">
+      <h2><span class="green">What </span>We Do</h2>
+
+      <div class="cards">
+        <div class="card">
+          <i class="fas fa-pencil-alt"></i>
+          <h3>Tax & Custodial</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            velit soluta totam, neque fuga culpa nam distinctio aut laborum?
+            Eum.
+          </p>
+        </div>
+
+        <div class="card">
+          <i class="fas fa-book-reader"></i>
+          <h3>Profile Management</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            velit soluta totam, neque fuga culpa nam distinctio aut laborum?
+            Eum.
+          </p>
+        </div>
+
+        <div class="card">
+          <i class="fas fa-university"></i>
+          <h3>Investments Banking</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            velit soluta totam, neque fuga culpa nam distinctio aut laborum?
+            Eum.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="who-we-are">
+      <div class="pic-team"></div>
+
+      <div class="who-we-are">
+        <h3><span class="green">Who </span>We Are</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid
+          aut optio dicta molestiae in similique reiciendis nesciunt dolores
+          nulla.
+        </p>
+        <h4>Our Team:</h4>
+        <p class="hr">Igor Lev: CEO</p>
+        <p class="hr">Evans Hamilton: CFO</p>
+        <p class="hr">Butler Clark: Lead Account manger</p>
+        <p class="hr">Marshall Gibson: Senior Accountant</p>
+        <p class="hr">Wells Olson: Some Made title</p>
+      </div>
+    </section>
+
+    <section id="our-clients">
+      <h2>Our <span class="green">Clients</span></h2>
+      <div class="clients">
+        <img src="./logos/logo2.png" alt="logo2" />
+        <img src="./logos/logo3.png" alt="logo3" />
+        <img src="./logos/logo4.png" alt="logo4" />
+        <img src="./logos/logo5.png" alt="logo5" />
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact">
+        <h2>Contact Us</h2>
+        <p>Please use the form below</p>
+
+        <form>
+          <div class="form">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Name" />
+          </div>
+
+          <div class="form">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="name"
+              placeholder="Enter Email"
+            />
+          </div>
+
+          <div class="form">
+            <label for="phone">Phone Number</label>
+            <input
+              type="text"
+              name="phone"
+              id="phone"
+              placeholder="Enter Phone Number"
+            />
+          </div>
+
+          <div class="form">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="8"></textarea>
+          </div>
+
+          <button type="submit" value="submit" class="btn-dark">Submit</button>
+        </form>
+      </div>
+
+      <div class="map"></div>
+    </section>
+
+    <footer id="footer">
+      <p>Copyright &copy; EdgeLedger, All Rights Reserved</p>
+    </footer>
+
+    <script src="./main.js"></script>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDU79id2CnKmZ_gsqd2XoBeu1uBApD8VnU&callback=initMap"
+      async
+      defer
+    ></script>
+  </body>
+</html>

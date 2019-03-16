@@ -1,0 +1,70 @@
+@media (max-width: 700px) {
+  #nav-bar {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .logo {
+    margin-top: 1rem;
+  }
+
+  #show-case {
+    text-align: center;
+  }
+
+  #show-case h1 {
+    font-size: 3rem;
+  }
+
+  #show-case p {
+    line-height: 1.5rem;
+  }
+
+  .btn {
+    margin-top: 2rem;
+  }
+
+  #what-we-do {
+    height: 135vh;
+  }
+
+  .cards {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .card p {
+    padding-bottom: 1rem;
+  }
+
+  .card i {
+    margin-top: 1rem;
+  }
+
+  .card {
+    outline: 1px solid #93cb52;
+    outline-offset: 1rem;
+    margin: 1.3rem;
+    width: 100%;
+    background: #232323;
+    color: #fff;
+    height: 100%;
+  }
+
+  #who-we-are .pic-team {
+    display: none;
+  }
+
+  #our-clients {
+    display: none;
+  }
+
+  .map {
+    display: none;
+  }
+
+  .contact {
+    width: 100%;
+  }
+}
